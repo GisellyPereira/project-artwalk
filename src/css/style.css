@@ -15,6 +15,85 @@ body {
     --color-gradient: linear-gradient(180deg, #646464, #222222);    
 }
 
+.header-container{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    padding: 1rem;
+    font-size: 0.8rem;
+}
 
+.header-container-text-span{
+    font-weight: bold;
+}
 
+.header-container-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.header-container-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container-user-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-artwalk-header{
+    width: 4.5rem;
+}
+
+.header-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+#logo-artwalk-header-2{
+    width: 7rem;
+}
+.header-container-2-nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.header-container-2-nav-list-item{
+    list-style: none;
+}
+
+.header-container-2-nav-list-item-link{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.header-container-2-nav-list-item-link:hover{
+    color: var(--color-primary);
+    transition: color 0.3s ease;
+}
+.header-container-2-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.header-container-2-search-input{
+    width: 100%;
+}
+.header-container-2-search-icon{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
